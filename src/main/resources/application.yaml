@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: Database path # change
+    username: database id # change
+    password: database password # change
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+server:
+  port: 8080
